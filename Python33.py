@@ -1,0 +1,13 @@
+#eleiçõeskkk
+candidato1 = input('Digite o nome do candidato: ')
+voto1 = int(input('Número de votos do candidato {}'.format(candidato1)))
+candidato2 = input('Digite o nome do candidato: ')
+voto2 = int(input('Número de votos do candidato {}'.format(candidato2)))
+candidato3 = input('Digite o nome do candidato: ')
+voto3 = int(input('Número de votos do candidato {}'.format(candidato3)))
+porcent1 = voto1/(voto1 + voto2 + voto3)
+porcent2 = voto2/(voto1 + voto2 + voto3)
+porcent3 = voto3/(voto1 + voto2 + voto3)
+print('O candidato {} possui {}% dos votos totais'.format(candidato1, voto1))
+print('O candidato {} possui {}% dos votos totais'.format(candidato2, voto2))
+print('O candidato {} possui {}% dos votos totais'.format(candidato3, voto3))
